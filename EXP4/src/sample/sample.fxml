@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="432.0" prefWidth="505.0">
+            <children>
+                <TextArea fx:id="matx" layoutX="61.0" layoutY="69.0" prefHeight="195.0" prefWidth="211.0" />
+                <Text layoutX="95.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Experiment 4 Solving Linear Equation" wrappingWidth="329.923828125">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <TextField fx:id="BT" layoutX="62.0" layoutY="281.0" prefHeight="23.0" prefWidth="211.0" />
+                <Text layoutX="20.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mat.X" />
+                <Text layoutX="18.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B^T" />
+                <TextArea fx:id="Trix" editable="false" layoutX="351.0" layoutY="283.0" prefHeight="99.0" prefWidth="129.0" />
+                <Text layoutX="292.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return" />
+                <Text layoutX="32.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*The equation is: MATX*(vector x)=MATB" wrappingWidth="250.08203125" />
+                <Text layoutX="288.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solution" />
+                <Button fx:id="JCB" layoutX="40.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#Jacobi" prefHeight="23.0" prefWidth="111.0" text="Jacobi" />
+                <Button fx:id="GSd" layoutX="197.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#GS" prefHeight="23.0" prefWidth="111.0" text="Gauss-Seidel" />
+                <Button fx:id="SOR" layoutX="351.0" layoutY="398.0" mnemonicParsing="false" onMouseClicked="#SOR" prefHeight="23.0" prefWidth="111.0" text="SOR" />
+                <Button fx:id="RES" layoutX="383.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#initialize" text="Reset" />
+                <TextArea fx:id="Solution" editable="false" layoutX="352.0" layoutY="69.0" prefHeight="195.0" prefWidth="129.0" />
+            <TextField fx:id="eps" layoutX="62.0" layoutY="319.0" prefHeight="23.0" prefWidth="80.0" text="0.000001" />
+            <Text layoutX="14.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Epsilon" />
+            <Text layoutX="150.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Omega" />
+            <TextField fx:id="omega" layoutX="201.0" layoutY="319.0" prefHeight="23.0" prefWidth="80.0" text="1" />
+            <TextField fx:id="itt" editable="false" layoutX="201.0" layoutY="356.0" prefHeight="23.0" prefWidth="80.0" />
+            <Text layoutX="153.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iter-T" />
+            <TextField fx:id="origin" layoutX="62.0" layoutY="356.0" prefHeight="23.0" prefWidth="80.0" text="1" />
+            <Text layoutX="19.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Origin" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

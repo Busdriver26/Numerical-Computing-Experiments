@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EXP5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EXP5_jar</output-path>
+    <root id="archive" name="EXP5.jar">
+      <element id="module-output" name="EXP5" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Jama-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-core-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-cdense-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-ddense-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-fdense-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-simple-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-zdense-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-dsparse-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-core-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-experimental-0.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-cdense-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-ddense-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-fdense-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-simple-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-zdense-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-dsparse-0.38-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ejml-v0.38-libs/ejml-experimental-0.38-sources.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

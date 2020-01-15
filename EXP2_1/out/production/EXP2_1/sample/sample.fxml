@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane fx:id="Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="F1" layoutX="34.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#F1" prefHeight="27.0" prefWidth="69.0" text="F1" />
+      <Button fx:id="F2" layoutX="125.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#F2" prefHeight="27.0" prefWidth="69.0" text="F2" />
+      <Button fx:id="F3" layoutX="213.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#F3" prefHeight="27.0" prefWidth="69.0" text="F3" />
+      <Button fx:id="F4" layoutX="308.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#F4" prefHeight="27.0" prefWidth="69.0" text="F4" />
+      <Text layoutX="103.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exp.2 Numercial Integral" wrappingWidth="220.931640625">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Trapezoidal" editable="false" layoutX="101.0" layoutY="164.0" prefHeight="23.0" prefWidth="106.0" />
+      <Text layoutX="16.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trapezoidal:" wrappingWidth="77.091796875" />
+      <TextField fx:id="Step" layoutX="95.0" layoutY="123.0" prefHeight="23.0" prefWidth="51.0" text="10" />
+      <TextField fx:id="Precision" layoutX="309.0" layoutY="123.0" prefHeight="23.0" prefWidth="84.0" text="0.000001" />
+      <Text layoutX="16.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simpson:" wrappingWidth="77.091796875" />
+      <TextField fx:id="Simpson" editable="false" layoutX="101.0" layoutY="202.0" prefHeight="23.0" prefWidth="106.0" />
+      <Text layoutX="16.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Romberg:" wrappingWidth="77.091796875" />
+      <TextField fx:id="Romberg" editable="false" layoutX="101.0" layoutY="240.0" prefHeight="23.0" prefWidth="106.0" />
+      <CheckBox fx:id="GivenStep" layoutX="20.0" layoutY="126.0" mnemonicParsing="false" selected="true" text="UseStep" />
+      <TextField fx:id="a" layoutX="177.0" layoutY="86.0" prefHeight="23.0" prefWidth="77.0" text="0" />
+      <TextField fx:id="b" layoutX="310.0" layoutY="86.0" prefHeight="23.0" prefWidth="77.0" text="1" />
+      <Text layoutX="156.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a:" />
+      <Text layoutX="287.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="b:" />
+      <CheckBox fx:id="GivenPrecision" layoutX="179.0" layoutY="126.0" mnemonicParsing="false" text="UsePrecision(ep.)" />
+      <TextField fx:id="bn_T" editable="false" layoutX="271.0" layoutY="164.0" prefHeight="23.0" prefWidth="106.0" />
+      <TextField fx:id="bn_S" layoutX="271.0" layoutY="202.0" prefHeight="23.0" prefWidth="106.0" />
+      <TextField fx:id="bn_R" layoutX="271.0" layoutY="240.0" prefHeight="23.0" prefWidth="106.0" />
+      <Text layoutX="220.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="best n:" />
+      <Text layoutX="220.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="best n:" />
+      <Text layoutX="220.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loop T:" />
+      <Button fx:id="Init" layoutX="20.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#initialize" prefHeight="27.0" prefWidth="51.0" text="Initial" />
+      <Button fx:id="Clear" layoutX="89.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#clear" prefHeight="27.0" prefWidth="51.0" text="Reset" />
+   </children>
+</AnchorPane>
